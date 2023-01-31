@@ -1,0 +1,146 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* button{
+    background: none;
+    border: none;
+    
+} */
+
+button {
+  font-size: 16px;
+  padding: 1em 3.3em;
+  transform: perspective(200px) rotateX(15deg);
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(0deg, rgba(63, 94, 251, 1) 0%, rgba(70, 135, 252, 1) 100%);
+  box-shadow: rgba(63, 94, 251, 0.2) 0px 40px 29px 0px;
+  will-change: transform;
+  transition: all 0.3s;
+  border-bottom: 2px solid rgba(70, 135, 252, 1);
+}
+
+button:hover {
+  transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+
+button:active {
+  transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+
+.button-delete {
+  font-size: 16px;
+  padding: 1em 3.3em;
+  transform: perspective(200px) rotateX(15deg);
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(0deg, rgb(251, 63, 63) 0%, rgb(252, 70, 70) 100%);
+  box-shadow: rgba(251, 63, 63, 0.2) 0px 40px 29px 0px;
+  will-change: transform;
+  transition: all 0.3s;
+  border-bottom: 2px solid rgb(252, 70, 70);
+}
+
+button:hover {
+  transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+
+button:active {
+  transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+
+body {
+  background-color: blue;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 100px auto;
+  background-color: aliceblue;
+  border-radius: 5px;
+  text-align: center;
+  padding: 100px 20px;
+
+
+
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 190px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px rgb(26, 18, 18) solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: rgb(19, 7, 7);
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: rgb(26, 76, 93);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: rgb(10, 31, 116);
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: rgb(23, 36, 41);
+  transform: translateY(-30px);
+}
+
+.name__content {
+  background-color: black;
+  width: 850px;
+  color: rgb(55, 153, 13);
+  text-align: start;
+  height: 200px;
+  margin: 60px auto;
+  overflow-y: auto;
+  border-radius: 6px;
+  padding: 20px 25px;
+
+}
+
+.name__content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.name__content::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+  border-radius: 10px;
+}
+
+.name__content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+} */
